@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        header {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 1.1rem;
+        }
+        nav{
+            background-color: black;
+            color: white;
+        }
+        ul.menu{
+           
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+       }
+       /* inherit : a tag를 감싸고 있는 tag의 글자색 속성을 이어받아라 */
+       ul.menu a{
+            display: block;
+            color: inherit;
+            text-decoration: none;
+            padding: 14px 16px;
+       }
+       /* font-weight : bold; 글자체를 볼드체로 */
+       ul.menu a:hover{
+           background-color: #ccc;
+           color: blue;
+           font-weight: bold;
+       }
+       
+       #home{
+            background-color: white;
+            color: black;
+       }
+     
+
+        div{
+            border: solid 1px black;
+            padding: 50px;
+            text-align: left;
+        }
+        footer{
+            background-color: blue;
+            color: white;
+           padding: 10px;
+        }
+        footer address{
+            text-align: center;
+        }
+        #home:hover{
+            background-color: #ccc;
+            color: blue;
+        }
+
+    
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h3>나라 plus</h3>
+    </header>
+    <nav>
+        <ul class="menu">
+                <li class="col"><a href="#" id="home">홈</a></li>
+                <li class="col"><a href="#" >상품정보</a></li>
+                <li class="col"><a href="#" >로그인</a></li>
+                <li class="col"><a href="#" >회원가입</a></li>
+                <li class="col"><a href="#" >About</a></li>
+        </ul>
+    </nav>
+    <section>
+            <p>우리나라</p>
+            <p>대한민국</p>
+            <p>Republic of Korea</p>
+
+    </section>
+        
+    <footer>
+        <address>copytRight &copy; iakwpi@naver.com</address>
+    </footer>
+</body>
+</html>
