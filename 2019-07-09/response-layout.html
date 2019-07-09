@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+    section.main{
+        display: flex;
+        flex-flow: wrap; /* 화면이 작아지면 줄바꿈하여 표시 */
+    }
+
+    section.main article{
+        background-color: #eee;
+        flex: 600px; /* flex : 1 1 600px */
+    }
+    section.main nav {
+        background-color: #ddd;
+        min-height: 50px;
+        flex: 150px;
+        order: -1;
+        line-height: 2em;
+        padding: 0;
+    }
+    section.main aside{
+        background-color: #ccf;
+        min-height: 50px;
+        flex: 150px;
+    }
+    ul {
+        list-style: none;
+    }
+    ul li{
+        border-bottom: tomato 1px solid;
+    }
+    ul a{
+        display: block;
+        text-decoration: none;
+        padding-left: 10px;
+
+    }
+    ul a:hover{
+        background-color: green;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>제목</h1>
+    </header>
+    <section class="main">
+        <article>
+                <h4>대한민국</h4>
+                대통령은 국민의 보통·평등·직접·비밀선거에 의하여 선출한다. 군사재판을 관할하기 위하여 특별법원으로서 군사법원을 둘 수 있다. 타인의 범죄행위로 인하여 생명·신체에 대한 피해를 받은 국민은
+                법률이 정하는 바에 의하여 국가로부터 구조를 받을 수 있다. 국가는 대외무역을 육성하며, 이를 규제·조정할 수 있다. 피고인의 자백이 고문·폭행·협박·구속의 부당한 장기화 또는 기망 기타의
+                방법에 의하여 자의로 진술된 것이 아니라고 인정될 때 또는 정식재판에 있어서 피고인의 자백이 그에게 불리한 유일한 증거일 때에는 이를 유죄의 증거로 삼거나 이를 이유로 처벌할 수 없다.
+                국무총리는 대통령을 보좌하며, 행정에 관하여 대통령의 명을 받아 행정각부를 통할한다.
+        </article>
+        <nav>
+            <ul>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+                <li><a href="#">메뉴1</a></li>
+            </ul>
+        </nav>
+        <aside>
+            Aside
+        </aside>
+    </section>
+    <footer>Footer</footer>
+</body>
+</html>

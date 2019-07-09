@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+    fieldset{
+        width: 500px;
+        margin: 0;
+    }
+    label{
+        display: block;
+    }
+    input{
+        margin: 3px;
+        width: 200px;
+    
+    }
+    #ad_gender{
+        width: 15px;
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <header>
+        <h3>회원가입</h3>
+    </header>
+    <form>
+        <fieldset>
+            <legend>회원가입</legend>
+            <label for="ad_id">ID</label>
+            <input id="ad_id" name="ad_id" placeholder="ID를 입력해주세요"><br/>
+
+            <label for="ad_password">PASSWORD</label>
+            <input id="ad_password" name="ad_password" placeholder="PASSWORD를 입력해주세요"><br/>
+
+            <label for="ad_nume">이름</label>
+            <input id="ad_name" name="ad_name" placeholder="이름을 입력해주세요"><br/>
+
+            <label for="ad_gender">성별</label>
+            <input type="radio" id="ad_gender" name="ad_gender">남
+            <input type="radio" id="ad_gender" name="ad_gender">여<br/>
+            
+            <label for="ad_tel">전화번호</label>
+            <input id="ad_tel" name="ad_tel" placeholder="전화번호를 입력해주세요"><br/>
+
+            <label for="ad_mail">E-mail</label>
+            <input id="ad_mail" name="ad_mail" placeholder="E-mail을 입력해주세요"><br/>
+           
+            <label for="ad_addr">주소</label>
+            <input id="ad_addr" name="ad_addr" placeholder="주소를 입력해주세요"><br/>
+
+
+            <button>회원가입</button>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
