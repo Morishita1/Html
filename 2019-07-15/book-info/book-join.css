@@ -26,3 +26,8 @@ input {
     height: 20px;
     border: 1px solid black;
 }
+
+button {
+    
+    background-color: aquamarine;
+}

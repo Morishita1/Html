@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        /*
+            inline-block으로 가로배치 box 리스트 설정
+            1. 모든 box들에 display 속성을 inlie-block으로 설정해야 한다.
+            2. vertical-align:top으로 설정하고 layout 배치를 시작
+            3. inline-block으로 배치할 칼럼 box 들은 tag를 빈칸 enter로
+                분리하지 않아야 한다.
+        
+        */
+        .i-box {
+            display: inline-block;
+            border: 1px solid blue;
+            width: 70%;
+            vertical-align: top;
+            margin: 0;
+        }
+
+        nav {
+            display: inline-block;
+            width: 25%;
+            border: 1px solid red;
+            vertical-align: top;
+            margin: 0;
+        }
+        div.box {
+            border: 1px solid red;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>매뉴 1</li>
+            <li>매뉴 2</li>
+            <li>매뉴 3</li>
+            <li>매뉴 4</li>
+            <li>매뉴 5</li>
+        </ul>
+
+    </nav>
+    <div class="i-box">
+        <div class="box">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam dolorem dolore ut voluptates
+            officia vero explicabo nobis aliquid expedita illo omnis voluptatum exercitationem id itaque, iusto optio
+            sint quis magni!
+            Assumenda dicta esse in quo eligendi quibusdam magni earum! Sapiente itaque saepe id ut vitae laborum
+            explicabo, doloribus est sequi reiciendis accusantium illum neque doloremque dicta quo vel nesciunt eveniet!
+            Suscipit doloribus sed perspiciatis provident cum nemo animi laudantium obcaecati illo ex rem, quos corrupti
+            facilis placeat magni tempore aliquid facere similique soluta quaerat ad, illum enim. Et, atque mollitia.
+        </div>
+        <div class="box">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolorem porro soluta vel unde
+            sunt blanditiis placeat, nostrum officia ducimus assumenda autem magnam corporis natus accusantium sit,
+            voluptatem dolor facere?</div>
+    </div>
+</body>
+
+</html>
